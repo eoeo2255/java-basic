@@ -1,6 +1,7 @@
 package class1;
 
 //  객체 도입
+//  변수에 참조값을 저장
 public class ClassStart3 {
     public static void main(String[] args) {
         Student student1;
@@ -14,6 +15,9 @@ public class ClassStart3 {
         student2.name = "학생2";
         student2.age = 14;
         student2.grade = 85;
+
+        System.out.println("student1 = " + student1);
+        System.out.println("student2 = " + student2);
 
         System.out.println("이름 : " +student1.name+ " 나이 : " +student1.age+ " 성적 : " +student1.grade);
         System.out.println("이름 : " +student2.name+ " 나이 : " +student2.age+ " 성적 : " +student2.grade);
